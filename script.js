@@ -113,7 +113,7 @@ const SECRET_STORY = {
     }, 
     body3: { 
         text:`Ho sbagliato tante volte con te, ed continuo a sbagliare. Ne faccio anche di stupidi, tipo ripeterti 
-        le cose…ed non capisco perché lo faccio, forse come dici te, troppo entusiasmo…o semplicemente o il timore di non farti sentire speciale, di farti sentire una "seconda scelta", una qualunque.\n\n 
+        le cose…ed non capisco perché lo faccio, forse come dici te, troppo entusiasmo…o semplicemente ho il timore di non farti sentire speciale, di farti sentire una "seconda scelta", una qualunque.\n\n 
         Ho tante teorie, tante ipotesi del perché, ma sinceramente, io voglio continuare a sbagliare. Non voglio dirti "io sono perfetto"...e mai l'ho pensato. Io lo so che non sono perfetto,
         ma so che quello che dico, lo penso sempre.\n\n 
         Io per te, voglio continuare a sbagliare.`,
@@ -546,4 +546,5 @@ function restart_story() {
 } 
 
 // ================= AVVIO ================= 
+
 type_text();
