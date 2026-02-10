@@ -224,13 +224,12 @@ button:active {
 @media (max-width: 480px) {
     #root {
         width: 100%;
-        max-width: none;         /* 🔑 niente limite desktop */
-        min-height: 100vh;       /* 🔑 pagina intera */
+        max-width: 100%;
+        height: auto;              /* cresce col contenuto */
+        min-height: unset;         /* nessuna forzatura */
         margin: 0;
-        border-radius: 0;        /* opzionale, più “pagina” */
-        padding: 28px 20px 80px 20px;
-        box-shadow: 0 10px 24px rgba(90, 62, 54, 0.18);
-        box-shadow: none;
+        padding: 24px 20px 56px 20px;
+        border-radius: 16px;
     }
 
     .love {
@@ -269,13 +268,11 @@ button:active {
 
 @media (max-width: 480px) {
     body {
-        display: block;          /* 🔑 smonta flex */
-        padding: 0;
-
-
-        align-items: flex-start;   /* 🔑 NON più centrato */
-        padding-top: 20px;
-        background-attachment: fixed;
+        display: flex;
+        justify-content: center;   /* centro verticale */
+        align-items: center;       /* centro orizzontale */
+        min-height: 100vh;
+        padding: 16px;
     }
 }
 
